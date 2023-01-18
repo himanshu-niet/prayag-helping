@@ -45,18 +45,18 @@ const volunteer = () => {
             />
           </div>
           <div className="md:col-span-1 col-span-2">
-            <input
-              className="font-semibold text-secondary border border-1 border-gray-400  focus:outline-0 w-full p-3"
-              type="number"
-              required
-              placeholder="Aadhar Number"
-            />
-          </div>
-          <div className="md:col-span-1 col-span-2">
+            <h1 className='text-lg font-semibold'>Id Card</h1>
             <input
               className="font-semibold text-secondary border border-1 border-gray-400  focus:outline-0 w-full p-3"
               type="file"
-            
+              required
+            />
+          </div>
+          <div className="md:col-span-1 col-span-2">
+            <h1 className='text-lg font-semibold'>Photo</h1>
+            <input
+              className="font-semibold text-secondary border border-1 border-gray-400  focus:outline-0 w-full p-3"
+              type="file"
             />
           </div>
           <div className="col-span-2">
