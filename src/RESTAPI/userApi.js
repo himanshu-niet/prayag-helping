@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "https://prayaghelping-backend.vercel.app";
+const url = "https://prayaghelping-backend.vercel.app/api";
 
 const addVolunteerApi=async(data)=>{
 try {
