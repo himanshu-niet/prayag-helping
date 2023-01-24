@@ -50,9 +50,10 @@ return toast.warning("Enter Full Details");
   formData.append("photo", photo);
 
  const res= await addVolunteerApi(formData)
- let msg=res.res
+ console.log(res)
+ let msg = res.res;
+
  if(res.code===200){
-  
   toast.success(msg);
  }else{
 

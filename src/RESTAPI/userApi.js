@@ -11,7 +11,7 @@ try {
       });
       let res = await response.data
       let code =response.status;
-      res=res.messages
+      res = res.message;
       return {res,code}
 } catch (error) {
    return(error.message)
