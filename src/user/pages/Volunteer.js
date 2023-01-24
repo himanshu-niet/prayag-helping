@@ -55,6 +55,7 @@ return toast.warning("Enter Full Details");
   setForm({})
   toast.success(msg);
  }else{
+  console.log(res.res)
   if(res.code!=406){
     msg="Technical Error"
   }
