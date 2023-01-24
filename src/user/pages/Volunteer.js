@@ -52,10 +52,10 @@ return toast.warning("Enter Full Details");
  const res= await addVolunteerApi(formData)
  let msg=res.res
  if(res.code===200){
-  setForm({})
+  
   toast.success(msg);
  }else{
-  console.log(res.res)
+
   if(res.code!=406){
     msg="Technical Error"
   }
